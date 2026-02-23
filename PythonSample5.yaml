@@ -115,7 +115,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: string
-    value: ''
+    value: '"some-token"'
   - name: OWNER
     required: true
     isInput: true
@@ -123,7 +123,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: string
-    value: '"jorgego-tech"'
+    value: '"some-owner"'
   - name: REPO
     required: true
     isInput: true
@@ -131,7 +131,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: string
-    value: '"concert-vulnerability-lab"'
+    value: '"some-repo"'
   - name: TITLE
     required: true
     isInput: true
@@ -139,7 +139,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: string
-    value: '"Test Issue from API"'
+    value: '"sample-title"'
   - name: BODY
     required: true
     isInput: true
@@ -147,7 +147,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: string
-    value: '"This issue was created via automation"'
+    value: '"sample issue body"'
   - name: LABELS
     required: true
     isInput: true
@@ -155,7 +155,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: array
-    value: "[\"bug\"]"
+    value: "[\"sample-label\"]"
   - name: ASSIGNEES
     required: true
     isInput: true
@@ -163,7 +163,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: array
-    value: "[\"jorgego-tech\"]"
+    value: "[\"sample-assignee\"]"
   - name: pythonresult
     required: false
     isInput: false
