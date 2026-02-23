@@ -115,7 +115,7 @@ variables:
     level: INTERMEDIATE
     type:
       type: string
-    value: '"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"'
+    value: ''
   - name: OWNER
     required: true
     isInput: true
